@@ -1,3 +1,9 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
  scroll-behavior: smooth;
 }
@@ -34,7 +40,7 @@ img {
     position: absolute;
     z-index: 999;
     left: 112.5px;
-    animation: mov-div 15s infinite; 
+    animation: mov-div 10s infinite; 
 }
 
 @keyframes mov-div {
@@ -42,143 +48,129 @@ img {
         top: 0px;  
         left: 112.5px;
     }
+    
+    /* Movimento de ida do cavalo */
 
-    3% {
+    4% {
         top: 112.5px;
         left: 112.5px;
     }
 
-    6% {
+    8% {
         top: 225px;
         left: 112.5px;
     }
 
-    9%{
+    12%{
         top: 225px;
         left: 225px;
     }
 
-    12% {
+    16% {
         top: 337.5px;
         left: 225px;
     }
 
-    15% {
+    20% {
         top: 450px;
         left: 225px;
-    }
-
-    18% {
-        top: 450px;
-        left: 337.5px;
-    }
-
-    21% {
-        top: 562.5px;
-        left: 337.5px;
     }
 
     24% {
-        top: 675px;
+        top: 450px;
         left: 337.5px;
     }
 
-    27% {
-        top: 675px;
-        left: 450px;
-    }
-
-    30% {
-        top: 675px;
-        left: 562.5px;
-    }
-
-    33% {
-        top: 675px;
-        left: 675px;
-    }
-
-    36% {
-        top: 787.5px;
-        left: 675px;
-    }
- /* casa final a partir 
- ta errado isso aq agr é só fazer a volta e ver o tempo*/
-
- /*
-    30% {
-        top: 675px; 
-        left: 562.5px;
-    }
-   
-    33% {
-        top: 675px;
-        left: 675px;
-    }
-
-     casa final 
-    36% {
-        top: 787.5px;
-        left: 675px;
-    }
-
-    39% {
-        top: 675px;
-        left: 675px;
-    }
-
-    42% {
-        top: 675px;
-        left: 562.5px;
-    }
-
-    45% {
-        top: 675px;
-        left: 450px;
-    }
-
-    48% {
-        top: 675px;
-        left: 337.5px;
-    }
-
-    51% {
+    28% {
         top: 562.5px;
         left: 337.5px;
     }
 
-    54% {
-        top: 450px;
+    32% {
+        top: 675px;
         left: 337.5px;
     }
 
-    57% {
-        top: 450px;
-        left: 225px;
+    36% {
+        top: 675px;
+        left: 450px;
     }
 
+    40% {
+        top: 675px;
+        left: 562.5px;
+    }
+
+    44% {
+        top: 675px;
+        left: 675px;
+    }
+
+    48% {
+        top: 787.5px;
+        left: 675px;
+    }
+    
+    /* Movimento de volta do cavalo */
+    
+    52% {
+		top: 675px;
+		left: 675px;
+    }
+    
+    56% {
+		top: 675px;
+		left: 562.5px;
+    }
+    
     60% {
-        top: 337.5px;
-        left: 225px;
+		top: 675px;
+		left: 450px;
     }
-
-    63% {
-        top: 225px;
-        left: 225px;
+    
+    64% {
+		top: 675px;
+		left: 337.5px;
     }
-
-    66% {
-        top: 225px;
-        left: 112.5px;
+    
+    68% {
+		top: 562.5px;
+        left: 337.5px;
     }
-
-    69% {
-        top: 112.5px;
-        left: 112.5px;
-    }
-
+    
     72% {
+		top: 450px;
+        left: 337.5px;
+    }
+    
+    76% {
+		top: 450px;
+        left: 225px;
+    }
+   
+    80% {
+		top: 337.5px;
+        left: 225px;
+    }
+    
+    84% {
+		top: 225px;
+        left: 225px;
+    }
+    
+    88% {
+		top: 225px;
+        left: 112.5px;
+    }
+    
+    92% {
+		top: 112.5px;
+        left: 112.5px;
+    }
+    
+    96% {
         top: 0px;  
         left: 112.5px;
-    } */
+    }
+    
 }
